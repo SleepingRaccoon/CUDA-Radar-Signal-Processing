@@ -24,6 +24,9 @@ cmake-build-*/
 *.swo
 *~
 
+# Temp
+temp/
+
 # CMake
 CMakeCache.txt
 CMakeFiles/
