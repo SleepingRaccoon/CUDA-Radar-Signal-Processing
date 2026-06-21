@@ -1,0 +1,14 @@
+reduce Performance Summary
+=========================
+  GPU: NVIDIA GeForce RTX 3050 Laptop GPU  |  16 MB  |  4194304 floats
+
+   Version Correct    Time(ms)     Melem/s   vsCPU/x
+ --------- ------- ----------- ----------- ---------
+    global    PASS       0.295     14234.6      13.6
+    shared    PASS       0.338     12406.1      11.9
+    stride    PASS       0.116     36047.9      34.5
+  syncwrap    PASS       0.320     13098.6      12.5
+      shfl    PASS       0.356     11786.8      11.3
+        cg    PASS       0.357     11742.3      11.2
+ --------- ------- ----------- ----------- ---------
+       CPU      --       4.018      1043.9     1.0 x
